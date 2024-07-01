@@ -45,6 +45,7 @@ try:
             result = sorted(list_winning_numbers)
         else:
             print('Введіні числа не відповідають умові')
+            result = []
         return result
     lottery_numbers = get_numbers_ticket(1, 49, 50)
     print("Ваші лотерейні числа:", lottery_numbers)
